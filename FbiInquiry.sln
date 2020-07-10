@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{C5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.CivilRegistry.Service", "Projects\CivilRegistry\FbiInquiry.CivilRegistry.Service\FbiInquiry.CivilRegistry.Service.csproj", "{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{B9D24CC6-B5E0-4279-A457-C4579DC26F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FbiInquiry.Utilities", "Utilities\FbiInquiry.Utilities\FbiInquiry.Utilities.csproj", "{7D81173C-84D5-428A-B077-E1DB09F9EC59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D81173C-84D5-428A-B077-E1DB09F9EC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D81173C-84D5-428A-B077-E1DB09F9EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D81173C-84D5-428A-B077-E1DB09F9EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D81173C-84D5-428A-B077-E1DB09F9EC59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,7 @@ Global
 		{61D451E5-C7B1-433F-AB54-9398A33DDCC7} = {71125E6F-7DE2-4AE9-BA84-1ED89A4E38D1}
 		{7E74187A-8E57-40BB-BC2D-E128CCB5E82F} = {71125E6F-7DE2-4AE9-BA84-1ED89A4E38D1}
 		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E} = {C596228A-941C-4908-B936-9C568CD6FD40}
+		{7D81173C-84D5-428A-B077-E1DB09F9EC59} = {B9D24CC6-B5E0-4279-A457-C4579DC26F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB9D3235-A8BF-422B-86FB-02619D3E8FFD}
