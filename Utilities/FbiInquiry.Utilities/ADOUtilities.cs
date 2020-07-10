@@ -36,6 +36,20 @@ namespace FbiInquiry.Utilities
             return table;
         }
 
+        public DataSet GetDataSetExec(string command)
+        {
+            var table = new DataSet();
+            var conn = GetConnection();
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            var data = new SqlDataAdapter(command, conn);
+            data.Fill(table);
+            conn.Close();
+            return table;
+        }
+
         protected bool NonQuery(string sql)
         {
             sql = sql.Replace('\x06A9', '\x0643');
