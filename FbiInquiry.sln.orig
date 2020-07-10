@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.Web", "FbiInquiry.Web\FbiInquiry.Web.csproj", "{1653744D-A7F7-4DBA-8115-AD4504ED1FBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{71125E6F-7DE2-4AE9-BA84-1ED89A4E38D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProxyService", "ProxyService", "{19B15869-0B2C-42F3-ACE3-4AB80FBE4AC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.DataAccess", "DataAccess\FbiInquiry.DataAccess\FbiInquiry.DataAccess.csproj", "{A8DB8F5A-B5D1-47ED-B034-3E2D53C8D789}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.ProxyService", "ProxyService\FbiInquiry.ProxyService\FbiInquiry.ProxyService.csproj", "{63B68BF1-7E87-4660-B185-BB6186C836A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.Api.DataAccess", "DataAccess\FbiInquiry.Api.DataAccess\FbiInquiry.Api.DataAccess.csproj", "{61D451E5-C7B1-433F-AB54-9398A33DDCC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.DataModel", "DataAccess\FbiInquiry.DataModel\FbiInquiry.DataModel.csproj", "{7E74187A-8E57-40BB-BC2D-E128CCB5E82F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{C596228A-941C-4908-B936-9C568CD6FD40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FbiInquiry.CivilRegistry.Service", "Projects\CivilRegistry\FbiInquiry.CivilRegistry.Service\FbiInquiry.CivilRegistry.Service.csproj", "{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}"
+<<<<<<< HEAD
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{92D12A38-1F70-4A27-B814-8CCF7C8497FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FbiInquiry.Utilities", "Utilities\FbiInquiry.Utilities\FbiInquiry.Utilities.csproj", "{E841C1BB-168C-4A38-8DF5-DDFB0F6B147A}"
+=======
+>>>>>>> f7612c0... dasdsa
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1653744D-A7F7-4DBA-8115-AD4504ED1FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1653744D-A7F7-4DBA-8115-AD4504ED1FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1653744D-A7F7-4DBA-8115-AD4504ED1FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1653744D-A7F7-4DBA-8115-AD4504ED1FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DB8F5A-B5D1-47ED-B034-3E2D53C8D789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DB8F5A-B5D1-47ED-B034-3E2D53C8D789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DB8F5A-B5D1-47ED-B034-3E2D53C8D789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DB8F5A-B5D1-47ED-B034-3E2D53C8D789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B68BF1-7E87-4660-B185-BB6186C836A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B68BF1-7E87-4660-B185-BB6186C836A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B68BF1-7E87-4660-B185-BB6186C836A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B68BF1-7E87-4660-B185-BB6186C836A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D451E5-C7B1-433F-AB54-9398A33DDCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D451E5-C7B1-433F-AB54-9398A33DDCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D451E5-C7B1-433F-AB54-9398A33DDCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D451E5-C7B1-433F-AB54-9398A33DDCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E74187A-8E57-40BB-BC2D-E128CCB5E82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E74187A-8E57-40BB-BC2D-E128CCB5E82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E74187A-8E57-40BB-BC2D-E128CCB5E82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E74187A-8E57-40BB-BC2D-E128CCB5E82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E841C1BB-168C-4A38-8DF5-DDFB0F6B147A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E841C1BB-168C-4A38-8DF5-DDFB0F6B147A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E841C1BB-168C-4A38-8DF5-DDFB0F6B147A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E841C1BB-168C-4A38-8DF5-DDFB0F6B147A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8DB8F5A-B5D1-47ED-B034-3E2D53C8D789} = {71125E6F-7DE2-4AE9-BA84-1ED89A4E38D1}
+		{63B68BF1-7E87-4660-B185-BB6186C836A1} = {19B15869-0B2C-42F3-ACE3-4AB80FBE4AC7}
+		{61D451E5-C7B1-433F-AB54-9398A33DDCC7} = {71125E6F-7DE2-4AE9-BA84-1ED89A4E38D1}
+		{7E74187A-8E57-40BB-BC2D-E128CCB5E82F} = {71125E6F-7DE2-4AE9-BA84-1ED89A4E38D1}
+		{6342CFBD-2B89-4A0B-B5BF-67A3CC29926E} = {C596228A-941C-4908-B936-9C568CD6FD40}
+		{E841C1BB-168C-4A38-8DF5-DDFB0F6B147A} = {92D12A38-1F70-4A27-B814-8CCF7C8497FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB9D3235-A8BF-422B-86FB-02619D3E8FFD}
+	EndGlobalSection
+EndGlobal
