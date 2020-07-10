@@ -34,6 +34,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\ApiFbi\Data\" />
+    <Folder Include="Areas\ApiFbi\Models\" />
+    <Folder Include="Areas\ApiFbi\Views\" />
     <Folder Include="Areas\FbiToken\ViewModel\" />
   </ItemGroup>
 
