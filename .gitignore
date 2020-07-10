@@ -11,3 +11,5 @@
 /DataAccess/FbiInquiry.DataModel/obj/*
 /Projects/CivilRegistry/FbiInquiry.CivilRegistry.Service/obj/*
 /Projects/CivilRegistry/FbiInquiry.CivilRegistry.Service/bin/*
+/Utilities/FbiInquiry.Utilities/bin/*
+/Utilities/FbiInquiry.Utilities/obj/*

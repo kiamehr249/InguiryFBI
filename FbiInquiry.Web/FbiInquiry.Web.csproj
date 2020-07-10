@@ -31,6 +31,7 @@
     <ProjectReference Include="..\DataAccess\FbiInquiry.DataAccess\FbiInquiry.DataAccess.csproj" />
     <ProjectReference Include="..\Projects\CivilRegistry\FbiInquiry.CivilRegistry.Service\FbiInquiry.CivilRegistry.Service.csproj" />
     <ProjectReference Include="..\ProxyService\FbiInquiry.ProxyService\FbiInquiry.ProxyService.csproj" />
+    <ProjectReference Include="..\Utilities\FbiInquiry.Utilities\FbiInquiry.Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
