@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace FbiInquiry.DataModel

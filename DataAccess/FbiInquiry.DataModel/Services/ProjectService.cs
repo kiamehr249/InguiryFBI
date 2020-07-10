@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,6 +79,11 @@ namespace FbiInquiry.DataModel
         public int ExecSqlCommand(string command, object[] values)
         {
             return  _uow.DataFace.ExecuteSqlCommand(command, values);
+        }
+
+        public List<T> GetDataFromSp(string command, object[] values)
+        {
+            return TEntity.FromSqlRaw<T>(command, values).ToList(); 
         }
 
 

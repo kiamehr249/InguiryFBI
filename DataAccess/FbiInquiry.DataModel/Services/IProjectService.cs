@@ -26,7 +26,11 @@ namespace FbiInquiry.DataModel
         List<Expression<Func<T, bool>>> ExpressionMaker();
 
         int ExecSqlCommand(string command);
+
         int ExecSqlCommand(string command, object[] values);
+
+        List<T> GetDataFromSp(string command, object[] values);
+
 
         Task<int> SaveChangesAsync();
 
