@@ -1,0 +1,13 @@
+/DataAccess/FbiInquiry.Api.DataAccess/bin/*
+/DataAccess/FbiInquiry.DataAccess/bin/*
+/DataAccess/FbiInquiry.DataModel/bin/*
+/FbiInquiry.Web/bin/*
+/.vs/*
+/FbiInquiry.Web/obj/*
+/ProxyService/FbiInquiry.ProxyService/obj/*
+/ProxyService/FbiInquiry.ProxyService/bin/*
+/DataAccess/FbiInquiry.Api.DataAccess/obj/*
+/DataAccess/FbiInquiry.DataAccess/obj/*
+/DataAccess/FbiInquiry.DataModel/obj/*
+/Projects/CivilRegistry/FbiInquiry.CivilRegistry.Service/obj/*
+/Projects/CivilRegistry/FbiInquiry.CivilRegistry.Service/bin/*
