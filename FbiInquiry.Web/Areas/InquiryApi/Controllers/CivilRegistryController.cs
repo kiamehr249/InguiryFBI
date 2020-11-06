@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using FbiInquiry.CivilRegistry.Service;
+using FbiInquiry.DataModel;
 using FbiInquiry.ProxyService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
